@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>TestCompany</title>
+</head>
+<body>
+
+  <section class="header__container">
+    <div class="header__container-menu">
+      <div class="header__container-menu-logo">
+        <p>SPIRIT8</p>
+      </div>
+      <div class="header__container-menu-menu">
+        <ul class="menu">
+          <li><a href="#">home</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">services</a></li>
+          <li><a href="#">portfolio</a></li>
+          <li><a href="#">testimonials</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <div class="header__container-start">
+        <div class="header__container-start-welcome">
+          <h3>welcome on <span>spirit8</span></h3>
+          <p>We are a digital agency with <b>years of experience</b> and with <b>extraordinary people</b></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="header__container__circle"> 
+      <div class="circle" id="down" >
+        <i class="material-icons">keyboard_arrow_down</i>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="about__container">
+      <div class="about__container-mac">
+        <img src="mac.png" alt="mac" width="506" height="506">
+      </div>
+      <div class="about__container-about">
+        <p class="about__container-about-first">about us</p>
+        <p class="about__container-about-second">some words <b>about us</b></p>
+        <p class="about__container-about-third">We love building and rebuilding brands through our  specific skills. Using colour, fonts, and illustration, we brand companies in a way they will never forget.</p>
+        <p class="about__container-about-list-first"><b>Mission</b> - <i>We deliver uniqueness and quality</i></p>
+        <p class="about__container-about-list-second"><b>Skills</b> - <i>Delivering fast and excellent results</i></p>
+        <p class="about__container-about-list-third"><b>Clients</b> - <i>Satisfied clients thanks to our experience</i></p>
+        <button class="about-button">Browse our work</button>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="team">
+    <div class="team__container">
+      <div class="team__container-meet">
+        <p>Meet <b>our team</b></p>
+      </div>
+    </div>
+
+  <div class="team__container-all">
+    <div class="team__container-first">
+      <div class="team__container-first_circle">
+        <img src="icon-avatar.png" alt="avatar" width="110px" height="110px">
+      </div>
+      <div class="team__container-first_name">
+        <h4>Jason Statham</h4>
+        <p>Knife designer</p>
+        <p>Do not seek to change what has come before.</p>
+      </div>
+    </div>
+
+    <div class="team__container-first">
+      <div class="team__container-first_circle">
+        <img src="icon-avatar.png" alt="avatar" width="110px" height="110px">
+      </div>
+      <div class="team__container-first_name">
+        <h4>Jason Statham</h4>
+        <p>Knife designer</p>
+        <p>Do not seek to change what has come before.</p>
+      </div>
+    </div>
+
+    <div class="team__container-first">
+      <div class="team__container-first_circle">
+        <img src="icon-avatar.png" alt="avatar" width="110px" height="110px">
+      </div>
+      <div class="team__container-first_name">
+        <h4>Jason Statham</h4>
+        <p>Knife designer</p>
+        <p>Do not seek to change what has come before.</p>
+      </div>
+    </div>
+
+    <div class="team__container-first">
+      <div class="team__container-first_circle">
+        <img src="icon-avatar.png" alt="avatar" width="110px" height="110px">
+      </div>
+      <div class="team__container-first_name">
+        <h4>Jason Statham</h4>
+        <p>Knife designer</p>
+        <p>Do not seek to change what has come before.</p>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section class="clients">
+    <div class="clients__mainContainer">
+      <div class="clients__mainContainer-title">
+        <p>some of <b>our clients</b></p>
+      </div>
+
+      <div class="clients__mainContainer-clients">
+        <img src="chanel.png" alt="chanel">
+        <img src="zara.png" alt="zara">
+        <img src="gue.png" alt="guerlain">
+        <img src="lancome.png" alt="lancome">
+        <img src="lacoste.png" alt="lacoste">
+      </div>
+    </div>
+  </section>
+
+  <script>
+  let click = document.getElementById('down');
+  click.addEventListener("click",fun);
+
+function fun() {
+    window.scroll({ top: 630, behavior: 'smooth' });
+}
+  </script>
+</body>
+</html>
